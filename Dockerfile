@@ -73,11 +73,11 @@ RUN set -xe \
 
 ADD ./bin /usr/local/bin
 
-VOLUME ["/strask"]
+VOLUME ["/straks"]
 
 EXPOSE 7575 7574 17575 17574
 
-WORKDIR /strask
+WORKDIR /straks
 
 COPY docker-entrypoint.sh /usr/local/bin/
 
